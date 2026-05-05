@@ -4,6 +4,7 @@ dt <- penguins
 
 ggplot(dt, aes(x = body_mass, y = bill_len)) + 
   geom_point() +
-  geom_line()
+  geom_line() +
+  theme_bw()
 
 ##Consider other plots
